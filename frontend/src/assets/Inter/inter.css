@@ -155,7 +155,32 @@ header
   display:none !important;
 }
 .bottom-12 {
-bottom: 78px;
+bottom: 78px !important;
+      background-color: transparent !important;
+}
+.ProseMirror {
+    filter: invert(1);
+}
+button[title=Image]
+{
+    position: absolute;
+    bottom: 0px;
+    scale: 1.4;
+    background: white;
+    color: black;
+    filter: invert(1);
+    border-radius: 3px;
+}
+button[title=Video]
+{
+    position: absolute;
+    bottom: 0px;
+  left:50px;
+    scale: 1.4;
+    background: white;
+    color: black;
+    filter: invert(1);
+    border-radius: 3px;
 }
 .mt-1\.5 {
 margin-top: .375rem;
