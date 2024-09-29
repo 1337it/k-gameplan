@@ -150,3 +150,22 @@
   src: url('Inter-BlackItalic.woff2?v=3.12') format('woff2'),
     url('Inter-BlackItalic.woff?v=3.12') format('woff');
 }
+header
+{
+  display:none !important;
+}
+.bottom-12 {
+bottom: 70px;
+}
+.mt-1\.5 {
+margin-top: .375rem;
+display: none !important;
+}
+.grid-cols-5 {
+display: none!important;
+}
+
+.items-start
+{
+  display:none !important;
+}
