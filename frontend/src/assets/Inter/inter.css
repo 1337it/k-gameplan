@@ -159,8 +159,26 @@ bottom: 78px !important;
       background-color: transparent !important;
 }
 .ProseMirror {
-    filter: invert(1);
+    /* filter: invert(1); */
+    margin: 20px 0;
 }
+.py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background: #ffffff91;
+    margin: 10px 0;
+    backdrop-filter: blur(5px);
+    /* filter: invert(1); */
+    border: 1px solid #ffffff;
+    padding: 10px !important;
+    border-radius: 10px;
+}
+.rounded-lg.items-center
+{
+width: 33.33vw;
+    margin-left: calc(33.33vw - 1.5rem);
+}
+
 button[title=Image]
 {
     position: absolute;
