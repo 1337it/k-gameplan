@@ -182,9 +182,17 @@ button[title=Video]
     filter: invert(1);
     border-radius: 3px;
 }
+
 .mt-1\.5 {
 margin-top: .375rem;
 display: none !important;
+}
+rounded-lg {
+    border-radius: .75rem;
+    width: 33.3vw;
+    text-align: center;
+    margin-left: calc(33.33vw - 1.5rem) !important;
+    filter: invert(1);
 }
 .grid-cols-5 {
 display: none!important;
