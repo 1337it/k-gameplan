@@ -255,14 +255,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
   --filters-wrapper-opacity: 1;
 }
 
-html {
-  font-size: 62.5%;
-}
 
-html,
-body {
-  height: 100%;
-}
 .bg-gray-50 {
 
 display: none;
@@ -556,9 +549,7 @@ min-height: 0!important;
 padding-top: 1.63rem!important;
 padding-bottom: 2.63rem!important;
 }
-.justify-between {
-justify-content: center!important;
-}
+
 .main-tabs-container {
 padding: 0 0rem 1rem!important;
 }
@@ -570,15 +561,7 @@ padding-top: 3rem!important;
 flex-direction: column;
 padding: 0 !important;
 }
-header
-{
-z-index:99;
-	background-color: white;
-	position: fixed;
-width: 100vw;
-top: 0;
-display:none !important;
-}
+
 .rounded-full {
 border-radius: 9999px;
 	width: 25vw !important;
