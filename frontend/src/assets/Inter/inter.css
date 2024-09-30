@@ -150,6 +150,10 @@
   src: url('Inter-BlackItalic.woff2?v=3.12') format('woff2'),
     url('Inter-BlackItalic.woff?v=3.12') format('woff');
 }
+.h-\[130px\] {
+    height: 33.3vh;
+    margin-top: -3vh;
+}
 header
 {
   display:none !important;
@@ -297,6 +301,10 @@ padding-right: 0;
 .items-center {
     align-items: center;
     flex-direction: column;
+}
+.rounded-\[7px\] {
+    border-radius: 7px;
+    width: 100%;
 }
 max-w-4xl {
     max-width: 56rem;
