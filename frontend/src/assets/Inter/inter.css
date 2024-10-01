@@ -189,6 +189,19 @@ bottom: 78px !important;
 width: 33.33vw;
     margin-left: calc(33.33vw - 1.5rem);
 }
+.items-center {
+    align-items: center;
+    flex-direction: column;
+}
+.rounded.ml-auto.gap-2 {
+    border-radius: .5rem;
+    position: fixed;
+    font-size: 0;
+    padding: 4px !important;
+    top: 0;
+    right: 0;
+}
+
 
 button[title=Image]
 {
@@ -276,7 +289,15 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 }
 .rounded-full {
     border-radius: 9999px;
-    box-shadow: 0px 7px 18px 7px #0000002e;
+  
+}
+.group .items-center {
+    align-items: center;
+    flex-direction: row;
+}
+[alt^="Profile "].rounded-full {
+    border-radius: 9999px;
+    box-shadow: 0 7px 18px 7px #0000002e;
 }
 .text-3xl {
     font-size: 22px!important;
