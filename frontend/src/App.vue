@@ -11,7 +11,6 @@
 import Sidebar from '@/components/Sidebar.vue'
 import Navbar from '@/components/Navbar.vue';
 import { RouterView } from 'vue-router';
-import { Toasts } from 'frappe-ui';
 import { computed, defineAsyncComponent } from 'vue'
 import { Dialogs } from '@/utils/dialogs'
 import { Toasts } from '@/utils/toasts'
