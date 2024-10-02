@@ -150,3 +150,36 @@
   src: url('Inter-BlackItalic.woff2?v=3.12') format('woff2'),
     url('Inter-BlackItalic.woff?v=3.12') format('woff');
 }
+
+
+@media screen and (max-width: 567px) {
+
+.flex-shrink-0.block.relative.min-h-0 {
+flex-shrink: 0;
+display: none;
+}
+
+.px-4.sticky.top-0.z-10 {
+display: none;
+padding-right: 1rem;
+}
+  #headlessui-radiogroup-55 button.px-2 {
+--tw-text-opacity: 1;
+width: 100%;
+    padding-top: 20px !important;
+padding-bottom: 20px !important;
+    font-size: 20px;
+}
+header
+  {
+    display: none;
+  }
+
+
+
+
+
+
+
+  
+}
