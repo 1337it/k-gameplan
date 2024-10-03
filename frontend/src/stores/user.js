@@ -1,4 +1,3 @@
-import { defineStore } from 'pinia'
 import { createResource } from 'frappe-ui'
 import router from "@/router"
 
