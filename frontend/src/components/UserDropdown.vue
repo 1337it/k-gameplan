@@ -45,7 +45,6 @@ import { sessionStore } from '@/stores/session'
 import { usersStore } from '@/stores/user';
 import { provide, ref } from 'vue'
 import ProfileModal from '@/components/ProfileModal.vue'
-import { School } from 'lucide-vue-next';
 
 const { user } = usersStore()
 const { logout } = sessionStore()
