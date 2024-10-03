@@ -8,7 +8,7 @@
           { label: 'People', route: { name: 'People' } },
           {
             label: profile?.full_name,
-            route: { name: 'PersonProfile', params: { personId: userProfileName } },
+            route: { name: 'Profile', params: { personId: userProfileName } },
           },
         ]"
       />
@@ -154,8 +154,8 @@ import ProfileImageEditor from '@/components/ProfileImageEditor.vue'
 import UserImage from '@/components/UserImage.vue'
 
 export default {
-  name: 'PersonProfile',
-  props: ['personId'],
+  name: 'Profile',
+  props: ['userProfileName'],
   components: {
     CoverImage,
     Dialog,
@@ -181,7 +181,7 @@ export default {
       return {
         type: 'document',
         doctype: 'GP User Profile',
-        name: this.personId,
+        name: userProfileName,
         realtime: true,
         whitelistedMethods: {
           setImage: 'set_image',
