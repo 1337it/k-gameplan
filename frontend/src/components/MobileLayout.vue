@@ -55,10 +55,10 @@ export default {
           condition: () => this.$user().isNotGuest,
         },
         {
-          name: 'Search',
+          name: 'Grades',
           icon: LucideSearch,
-          route: { name: 'Search' },
-          isActive: this.$route.name === 'Search',
+          route: { name: 'Grades' },
+          isActive: this.$route.name === 'Grades',
           condition: () => this.$user().isNotGuest,
         },
         {
