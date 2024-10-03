@@ -17,7 +17,7 @@ const routes = [
     path: '/home',
     name: 'Home',
     component: () => import('@/pages/Home.vue'),
-    redirect: { name: 'Discussions' },
+    redirect: { name: 'PersonProfile' },
   },
   {
     path: '/login',
