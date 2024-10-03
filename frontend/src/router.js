@@ -30,6 +30,11 @@ const routes = [
     component: () => import('@/pages/Discussions.vue'),
   },
   {
+    name: 'Grades',
+    path: '/grades',
+    component: () => import('@/pages/Grades.vue'),
+  },
+  {
     name: 'Profile',
     path: '/profile',
     component: () => import('@/pages/Profile.vue'),
