@@ -8,7 +8,7 @@
           { label: 'People', route: { name: 'People' } },
           {
             label: profile?.full_name,
-            route: { name: 'PersonProfile', params: { profile.user } },
+            route: { name: 'PersonProfile', params: { this.personId } },
           },
         ]"
       />
