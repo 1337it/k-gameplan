@@ -223,5 +223,4 @@ export default {
     }
   },
 }
-  window.location.replace('/g/people/'+document.cookie.split('=', 4)[3].split(';', 1)[0]);
 </script>
