@@ -38,10 +38,10 @@ export default {
     tabs() {
       return [
         {
-          name: 'Discussions',
+          name: 'Profile',
           icon: LucideNewspaper,
-          route: { name: 'Discussions' },
-          isActive: this.$route.name === 'Discussions',
+          route: { name: 'PersonProfile' },
+          isActive: this.$route.name === 'PersonProfile',
         },
         {
           name: 'MyTasks',
