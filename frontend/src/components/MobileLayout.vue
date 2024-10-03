@@ -40,8 +40,8 @@ export default {
         {
           name: 'Profile',
           icon: LucideNewspaper,
-          route: { name: 'PersonProfile' },
-          isActive: this.$route.name === 'PersonProfile',
+          route: { name: 'Profile' },
+          isActive: this.$route.name === 'Profile',
         },
         {
           name: 'MyTasks',
