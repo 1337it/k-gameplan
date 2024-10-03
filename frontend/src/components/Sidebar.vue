@@ -43,7 +43,6 @@
 <script setup>
 import { useStorage } from '@vueuse/core'
 import SidebarLink from '@/components/SidebarLink.vue'
-import { LayoutDashboard,CalendarCheck,GraduationCap, Banknote, UserCheck, ArrowLeftToLine, BookOpen } from 'lucide-vue-next';
 
 import UserDropdown from './UserDropdown.vue';
 import { createResource } from 'frappe-ui';
