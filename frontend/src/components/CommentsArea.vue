@@ -71,7 +71,7 @@
         v-show="!showCommentBox"
       >
         <UserAvatar class="mr-3" :user="$user().name" size="sm" />
-        Make Post
+        Add a comment
       </button>
       <div
         v-show="showCommentBox"
