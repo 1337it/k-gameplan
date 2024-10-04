@@ -196,9 +196,20 @@ header
         flex-direction: column;
         padding-top: 0px;
         background-image: none;
-        background: #80808014;
+
         padding: 8px;
     }
+	.py-6.transition-shadow.border-t {
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    background-blend-mode: screen;
+    background-blend-mode: multiply, multiply;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    padding: 10px;
+    background: #ebedeea6;
+    border: none;
+}
 
 .text-gray-600 {
 --tw-text-opacity: 1;
