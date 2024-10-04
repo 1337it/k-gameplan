@@ -391,6 +391,11 @@ border-top-right-radius: 0;
 .animate-jello {
   animation: jello-horizontal 0.9s both;
 }
+	.prose-sm :where(.prose-sm>:last-child):not(:where([class~=not-prose] *)) {
+    margin-bottom: 0;
+    margin: 20px 20px;
+    font-size: 16px;
+}
 
 @keyframes jello-horizontal {
   0% {
