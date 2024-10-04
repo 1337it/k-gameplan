@@ -170,10 +170,35 @@ width: 100%;
 padding-bottom: 20px !important;
     font-size: 20px;
 }
+	.w-7 {
+    width: 35px;
+}
+
+.h-7 {
+    height: 35px;
+}
+	[datetime].text-gray-600 {
+    --tw-text-opacity: 1;
+    color: rgb(124 124 124 / var(--tw-text-opacity));
+    font-size: 12px;
+		font-weight: 300;
+}
+	[href^="/g/people"].font-medium {
+    font-weight: 400;
+    font-size: 16px;
+}
 header
   {
     display: none;
   }
+	[slug="posts"] .mx-auto .items-center.flex {
+        align-items: center;
+        flex-direction: column;
+        padding-top: 0px;
+        background-image: none;
+        background: #80808014;
+        padding: 8px;
+    }
 
 .text-gray-600 {
 --tw-text-opacity: 1;
