@@ -272,7 +272,7 @@ height: 25vw !important;
     background: #ffffff57;
     backdrop-filter: blur(5px);
 }
-.mx-auto .items-center.flex {
+#homeprofile .mx-auto .items-center.flex {
         align-items: center;
         flex-direction: column;
         padding-top: 60px;
