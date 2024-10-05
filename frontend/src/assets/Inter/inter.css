@@ -438,8 +438,7 @@ border-top-right-radius: 0;
   animation: jello-horizontal 0.9s both;
 }
 	.prose-sm :where(.prose-sm>:last-child):not(:where([class~=not-prose] *)) {
-    margin-bottom: 0;
-    margin: 20px 20px;
+   
     font-size: 16px;
 }
 .flex.mx-auto.w-full.max-w-4xl.px-5 {
