@@ -218,8 +218,8 @@ display:none !important;
 border-radius: 9999px;
 	width: 40vw !important;
 height: 40vw !important;
-	      filter: drop-shadow(0px 2px 3px #8bce457d);
-        border: 1px dotted #8bce457d;
+	     
+        border: 4px dotted #8bce457d;
 }
 	[role="radiogroup"].inline-block {
     display: inline-block;
