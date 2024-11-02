@@ -284,8 +284,9 @@ align-items: center;
     margin-left: 0;
     color: white;
     font-weight: 300;
-    margin-bottom: 20px;
-		margin-top: 20px;
+    margin-bottom: 1vh;
+		        font-size: 3vh !important;
+		margin-top: 1vh;
     letter-spacing: 5px;
 		        text-transform: uppercase;
 }
