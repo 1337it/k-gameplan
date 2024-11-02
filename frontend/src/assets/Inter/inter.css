@@ -219,7 +219,7 @@ border-radius: 9999px;
 	width: 20vh !important;
 height: 20vh !important;
 	     
-        border: 4px dotted #8bce457d;
+        border: 4px solid #ffffff;
 }
 	[role="radiogroup"].inline-block {
     display: inline-block;
