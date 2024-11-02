@@ -216,8 +216,8 @@ display:none !important;
 }
 [alt^="Profile Photo"].rounded-full {
 border-radius: 9999px;
-	width: 40vw !important;
-height: 40vw !important;
+	width: 20vh !important;
+height: 20vh !important;
 	     
         border: 4px dotted #8bce457d;
 }
@@ -247,7 +247,7 @@ height: 40vw !important;
 #homeprofile .items-center.flex {
         align-items: center;
         flex-direction: column;
-        padding-top: 60px;
+        padding-top: 5vh;
                
     }
 	[slug="posts"] .items-center.flex {
